@@ -1,0 +1,26 @@
+{
+  "name": "testhellostart",
+  "description": "This is the test package made by Priyanshu Chourasia to test and upload packages on npm package",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://google.com",
+  "repository": {
+    "url": "https://github.com/PriyanshuChourasia/testhellostart"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test",
+    "hello",
+    "priyanshu"
+  ],
+  "author": "developerpriyanshu",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  }
+}
